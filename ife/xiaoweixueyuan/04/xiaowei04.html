@@ -6,30 +6,14 @@
 <style type="text/css">
 *{margin: 0px;padding: 0px;}
 #box1{width: 400px;height: 200px;background-color: #ccc;position: absolute;top: 50%;left: 50%;margin-left: -200px;margin-top: -100px;}
-.shanxing{position: relative;width: 100px;height: 100px;border-radius: 50px;background-color: #fc0;}
-.sx1{position: absolute;width: 100px;height: 100px;transform:rotate(0deg);clip: rect(0 50px 100px 0);border-radius: 50px;background-color: #fff;}
-.sx2{position: absolute;width: 100px;height: 100px;transform:rotate(0deg);clip: rect(0 50px 100px 0);border-radius: 50px;background-color: #fff;}
-
-.shanxing1 .sx1{transform:rotate(90deg);}
-.shanxing1 .sx2{transform:rotate(0deg);}
-
-.shanxing2 .sx1{transform:rotate(-90deg);}
-.shanxing2 .sx2{transform:rotate(-180deg);}
-
-.shanxing1{position: absolute;top: 50%;left: 50%;margin-left: -250px;margin-top: -150px;}
-.shanxing2{position: absolute;top: 50%;left: 50%;margin-left: 150px;margin-top: 50px;}
-
+.shanxing1{width: 50px;height: 50px;float: left;border-radius: 0px 0px 50px 0px;background-color: #fc0;}
+.shanxing2{width: 50px;height: 50px;float: right;border-radius: 50px 0px 0px 0px;background-color: #fc0;margin-top: 150px;}
 </style>	
 </head>
 <body>
-<div id="box1"></div>
-<div class="shanxing shanxing1">
-	<div class="sx1"></div>
-     <div class="sx2"></div>
-</div>
-<div class="shanxing shanxing2">
-	<div class="sx1"></div>
-     <div class="sx2"></div>
+<div id="box1">
+<div class="shanxing1"></div>
+<div class="shanxing2"></div>
 </div>
 </body>
 </html>
